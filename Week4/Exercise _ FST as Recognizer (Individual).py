@@ -17,17 +17,7 @@ class myFST(FST):
         else:
             return False
 
-# you can define an FST either this way:
-#f = myFST.parse("example", """
-#-> 1
-#1 -> 2 [a:1]
-#2 -> 2 [a:0]
-#2 -> 2 [b:1]
-#2 -> 3 [:1]
-#3 -> 4 [b:1]
-#4 -> 5 [b:]
-#5 ->
-#""")
+
 
 # or this more verbose way
 f = myFST('example')
