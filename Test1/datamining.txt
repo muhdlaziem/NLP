@@ -1,0 +1,23 @@
+Section D : Q2 (Programming)
+
+As a Data Scientist expert specializing in unstructured data, you are given a task by your Project Manager to sift through a text file containing information of a group of residents in a village in Selangor who are eligible under the B40 category to receive free medical assistance. The criteria are as below:
+
+1) Age >= 50 years 
+23) Must be born in Selangor (with state code '10')
+
+the code definition of a Malaysian identity card is YYMMDD-SC-XXXX where SC refers to the state code where the resident is born and YYMMDD (first 4 digits) refers to their date of birth.
+
+Given the file residents.dat, use your knowledge in "regular expressions" to filter the document and extract only the following information:
+
+1) The residents name who comply with all of the above criteria
+2) The residents identification card no
+3) The residents contact number
+4) The residents household income
+
+Print your output in an external file named "B40.dat" and indicate each type of info.  Sample output file shall look like the following (sample output):
+
+Name of resident		ID Card No		Contact No	Household Income
+MaimunahMat    			570824-10-5003 		60102355239	3990
+Ibrahim				590212-10-5561		601112302487	2999
+
+
